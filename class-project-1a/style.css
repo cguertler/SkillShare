@@ -1,0 +1,23 @@
+.box1{
+    background-color: skyblue;
+    height: 450px;
+    width: 550px;
+}
+
+.box1sub1{
+    background-color: green;
+    height: 150px;
+    width: 450px;
+}
+
+.box2{
+    background-color: tan;        
+    height: 250px;
+    width: 300px;
+}
+
+.box2sub1{
+    background-color: blue;
+    height: 70px;
+    width: 100px;
+}
