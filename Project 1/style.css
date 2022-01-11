@@ -36,8 +36,14 @@ main {
 }
 
 footer {
-    background-color: green;
-    height: 100px;
+    background-color: rgba(2, 7, 0, 0.712);
+}
+
+footer p {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: gray;
 }
 
 h1 {
