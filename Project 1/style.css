@@ -21,13 +21,11 @@ header {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.205);
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    background-color: rgba(0, 0, 0, 0.068);
+    height: 40px;
 }
 
-main {
+main { 
     height: 400px;    
     text-align: center;
     margin-top: 80px;
@@ -36,14 +34,8 @@ main {
 }
 
 footer {
-    background-color: rgba(2, 7, 0, 0.712);
-}
-
-footer p {
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    color: gray;
+    background-color: green;
+    height: 100px;
 }
 
 h1 {
@@ -62,11 +54,4 @@ a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     /* text-decoration: none; */
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
