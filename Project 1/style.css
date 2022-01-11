@@ -22,7 +22,18 @@ header {
 
 nav {
     background-color: rgba(0, 0, 0, 0.068);
-    height: 40px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;    
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+    
 }
 
 main { 
@@ -34,8 +45,16 @@ main {
 }
 
 footer {
-    background-color: green;
-    height: 100px;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;    
+    
 }
 
 h1 {
