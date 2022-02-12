@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    background-image: linear-gradient(#C8E400,#FFFA00);
+    background-image: linear-gradient(#FC5E55 ,#FA4083);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .container {
