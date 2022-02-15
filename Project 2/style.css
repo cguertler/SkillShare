@@ -24,6 +24,17 @@ header {
     justify-content: space-between;  
 }
 
+.navbutton {
+    color: white;
+    text-decoration: none;
+    border-color: White;
+    border-width: 1px;
+    border-style: solid;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    padding: 11px 25px;      
+}
+
 .mybutton {
     background-color: white;
     color:#FA4083;
