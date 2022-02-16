@@ -28,11 +28,12 @@ header {
     color: white;
     text-decoration: none;
     border-color: White;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     font-family: 'Playfair Display', serif;
     display: inline-block;
-    padding: 11px 25px;      
+    padding: 11px 25px;  
+    margin: 0px 20px;    
 }
 
 .mybutton {
