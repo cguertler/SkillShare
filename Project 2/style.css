@@ -1,5 +1,4 @@
 html {
-    height: 100%;
 }
 
 body {
@@ -21,8 +20,11 @@ header {
     padding-bottom: 10px;
     display: flex;
     align-items: center;  
-    justify-content: space-between;  
+    justify-content: space-between; 
+    border-bottom: 1px solid gray; 
 }
+
+
 
 .navbutton {
     color: white;
@@ -45,6 +47,11 @@ header {
     padding: 11px 25px;
     border-radius: 6px 12px 18px 24px;
     box-shadow: 0px 3px 2px rgb(146, 100, 100);
+}
+
+.mybutton:hover {
+    background-color: rgb(108, 108, 175);
+    transition-duration: 1s;
 }
 
 nav a.mybutton {
@@ -137,4 +144,24 @@ p {
     font-size: 100px;
     color: rgba(255, 255, 255, 0.514);
     padding-top: 30px;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+ 
+.tbox {
+    width: 37%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 30px;
+    margin-top: 50px  ;
+}
+
+.tbox p:nth-of-type(2) {
+    font-size: .8rem;
+    margin-left: 10px;
 }
