@@ -26,5 +26,5 @@
 
 .dropdown-box .navbutton:hover {
     background-color: magenta;
-    transition-duration: 250ms;
+    transition-duration: 1s;
 }
