@@ -9,7 +9,7 @@
 
 /* By default, we want the drop-down menu hidden. */
 .dropdown-box {
-    display: none;
+    /* display: none; */
     position: absolute;
     padding-top: 20px;
     /* margin-left: -30; */

@@ -1,11 +1,12 @@
-html {
-}
-
 body {
     background-image: linear-gradient(#FC5E55 ,#FA4083);
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
+}
+
+.border {
+    border: 2px solid black;
 }
 
 .container {
@@ -40,10 +41,9 @@ header {
 }
 
 .dropdown-box {
-    display: none;
+    /* display: none; */
     position: absolute;
     padding-top: 20px;
-    padding-right: 88px;
 }
 
 .navbutton:hover .dropdown-box {
