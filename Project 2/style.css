@@ -36,6 +36,27 @@ header {
     display: inline-block;
     padding: 11px 25px;  
     margin: 0px 20px;    
+    position: relative;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 88px;
+}
+
+.navbutton:hover .dropdown-box {
+    display: block;
+}
+
+.dropdown-box .navbutton {
+    background-color: aqua;
+}
+
+.dropdown-box .navbutton:hover {
+    background-color: magenta;
+    transition-duration: 1s;
 }
 
 .mybutton {
