@@ -1,12 +1,14 @@
+html {    
+    background-image: linear-gradient(#FC5E55 ,#FA4083); 
+}
+
 body {
-    background-image: linear-gradient(#FC5E55 ,#FA4083);
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
-}
-
-.border {
-    border: 2px solid black;
 }
 
 .container {
@@ -26,7 +28,6 @@ header {
 }
 
 
-
 .navbutton {
     color: white;
     text-decoration: none;
@@ -41,9 +42,12 @@ header {
 }
 
 .dropdown-box {
-    /* display: none; */
+    display: none;
     position: absolute;
     padding-top: 20px;
+    margin-left: -47px;
+    width: 193px; 
+    text-align: center;
 }
 
 .navbutton:hover .dropdown-box {
@@ -51,12 +55,15 @@ header {
 }
 
 .dropdown-box .navbutton {
-    background-color: aqua;
+    background-color: #4c5df0;
+    color: black;
 }
 
 .dropdown-box .navbutton:hover {
-    background-color: magenta;
-    transition-duration: 1s;
+    background-color: #606ff5;    
+    color: black;
+    font-weight: bolder;
+    /* transition-duration: 300ms; */
 }
 
 .mybutton {
