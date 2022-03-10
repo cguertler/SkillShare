@@ -197,3 +197,14 @@ p {
     font-size: .8rem;
     margin-left: 10px;
 }
+
+input[type=text], input[type=email], textarea {
+    padding: 1px 5px;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+}
+
+.newline {
+    display: block;
+}
